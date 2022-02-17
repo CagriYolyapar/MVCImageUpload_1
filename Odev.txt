@@ -1,0 +1,9 @@
+﻿1) Bana öyle bir class yaratın ki bu class'ın icerisinde crypt ve decrypt metotları olsun...Crypto metodu kendisine verilen bilgiyi sifreleyerek geriye sifrelenmiş bir deger döndürsün, decrypt metodu ise kendisine verilen sifrelenmiş veriyi decrypt ederek(cozerek) bana orijinal bilgiyi döndürsün...
+
+CryptClass.Crypt("Cagri");
+"asdsadapsudpuahspdu123p123123pıapuısdsaudbpubaspdubapsud"
+Crypt.Class.Decrypt("asdsadapsudpuahspdu123p123123pıapuısdsaudbpubaspdubapsud");
+"Cagri"
+
+
+CryptClass.Crypt("Fatih")

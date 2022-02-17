@@ -1,0 +1,24 @@
+﻿@model ImageLoadVM
+@{
+    ViewBag.Title = "Index";
+}
+
+@using(Html.BeginForm("Index","ImageLoad",FormMethod.Post,new {enctype = "multipart/form-data" }))
+{
+    <div>
+        Isim Giriniz
+    </div>
+
+    <div>
+        @Html.TextBoxFor(x=>x.TestClass.Name)
+    </div>
+
+    <div>
+        <input type="file" name="resim" value="" />
+    </div>
+
+    <div>
+        <button class="btn btn-primary">Kaydet</button>
+    </div>
+}
+
